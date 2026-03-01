@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+
+  <!-- HEADER -->
+  <header>
+    <h2>Student Dashboard</h2>
+    <button id="themeBtn">🌙</button>
+  </header>
+
+  <!-- COUNTER CARD -->
+  <section class="card">
+    <h3>Counter</h3>
+    <h1 id="count">0</h1>
+
+    <div class="counter-buttons">
+      <button id="minus">-</button>
+      <button id="reset">Reset</button>
+      <button id="plus">+</button>
+    </div>
+  </section>
+
+  <!-- USERS CARD -->
+  <section class="card">
+    <h3>Users</h3>
+    <button id="loadUsers">Load Users</button>
+
+    <div id="users" class="users-container"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
